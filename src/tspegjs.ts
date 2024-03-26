@@ -1,5 +1,5 @@
 import type { Config } from 'peggy';
-import { generateParser } from './passes/generate-ts';
+import { generateParser } from './passes/generate-ts.ts';
 import { TsPegjsParserBuildOptions } from './types';
 
 export * from "./types";
